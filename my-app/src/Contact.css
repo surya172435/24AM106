@@ -1,0 +1,42 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5d39de;
+}
+
+.contact__box {
+  width: 350px;
+  background: #2e1111;
+  padding: 25px;
+  border-radius: 4px; /* small radius = square look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact__box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact__box input,
+.contact__box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.contact__box textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact__box button {
+  width: 100%;
+  padding: 10px;
+  background: #aa2929;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
